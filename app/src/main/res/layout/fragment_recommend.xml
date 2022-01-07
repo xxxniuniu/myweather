@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragment.RecommendFragment"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:hint="www.hznu.edu.cn"
+                android:id="@+id/ed_url"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+            </EditText>
+            <Button
+                android:id="@+id/btn_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="点击获取二维码"
+                android:backgroundTint="#EAE9E9"
+                android:textColor="@color/black">
+            </Button>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_url"
+            android:layout_width="400dp"
+            android:layout_height="400dp">
+        </ImageView>
+        <Button
+            android:id="@+id/btn_day_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="点击获取每日一图"
+            android:backgroundTint="#EAE9E9"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp">
+        </Button>
+        <ImageView
+            android:id="@+id/img_day_pic"
+            android:layout_width="400dp"
+            android:layout_height="400dp">
+        </ImageView>
+    </LinearLayout>
+</ScrollView>
